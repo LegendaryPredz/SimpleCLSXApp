@@ -1,39 +1,63 @@
 {
-  "version": "1.0.0",
-  "releaseDate": "2025-01-04T00:00:00Z",
+  "version": "1.0.1",
+  "releaseDate": "2025-09-05T16:17:00Z",
   "minimumVersion": "1.0.0",
   "channels": {
     "stable": {
-      "version": "1.0.0",
-      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.0/SimpleCLSX-1.0.0-win64.zip",
-      "size": 25000000,
-      "sha256": "will_be_updated_by_deployment_script",
+      "version": "1.0.1",
+      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.1/SimpleCLSX-1.0.1-win64.zip",
+      "size": 17812508,
+      "sha256": "11E972A17560EE30EFC8C253850C0F0ED509ED62D3C69DBDEA21A0EC305D289A",
       "signature": "",
       "changelog": {
-        "en": "## SimpleCLSX v1.0.0 - Initial Release\n\n### Features\n- RGB color control with real-time preview\n- Brightness adjustment (0-255 levels)\n- 7 preset colors for quick access\n- Sequence playback (built-in and custom)\n- Custom .raw sequence upload support\n- Firmware update with DFU support\n- Automatic driver installation (Windows)\n- Dark mode interface\n- Professional OTA update system\n\n### Technical Features\n- Thread-safe USB communication\n- Automatic device detection\n- Cross-platform support\n- Comprehensive logging\n- CRC validation for data integrity\n\n### Getting Started\n1. Connect your CLSX cabinet\n2. SimpleCLSX will auto-detect and install drivers\n3. Start controlling your LED lighting!\n\nNo updates currently available - you're running the latest version!"
+        "en": "## SimpleCLSX v1.0.1\n\n### Bug Fixes\n- Fixed build system to use correct Qt MinGW compiler\n- Resolved libwdi.dll path configuration issues\n- Corrected library paths for proper linking\n\n### Improvements\n- Enhanced build process stability\n- Improved deployment scripts\n- Better error handling in release workflow\n\n### Update Instructions\n- SimpleCLSX will automatically download and install this update\n- Or manually check via Help → Check for Updates (Ctrl+U)"
       },
       "critical": false,
-      "minimumFirmware": "2.0.0"
+      "minimumFirmware": "2.0.0",
+      "previousVersions": [
+        {
+          "version": "1.0.0",
+          "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.0/SimpleCLSX-1.0.0-win64.zip",
+          "releaseDate": "2025-01-04T00:00:00Z",
+          "changelog": {
+            "en": "## SimpleCLSX v1.0.0 - Initial Release\n\n### Features\n- RGB color control with real-time preview\n- Brightness adjustment (0-255 levels)\n- 7 preset colors for quick access\n- Sequence playback (built-in and custom)\n- Custom .raw sequence upload support\n- Firmware update with DFU support\n- Automatic driver installation (Windows)\n- Dark mode interface\n- Professional OTA update system"
+          }
+        }
+      ]
     },
     "beta": {
-      "version": "1.0.0",
-      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.0-beta/SimpleCLSX-1.0.0-beta-win64.zip",
-      "size": 25000000,
-      "sha256": "will_be_updated_by_deployment_script",
+      "version": "1.0.1",
+      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.1-beta/SimpleCLSX-1.0.1-beta-win64.zip",
+      "size": 17812508,
+      "sha256": "11E972A17560EE30EFC8C253850C0F0ED509ED62D3C69DBDEA21A0EC305D289A",
       "signature": "",
       "changelog": {
-        "en": "## SimpleCLSX v1.0.0 Beta\n\n### Beta Channel\nSame as stable release for now. Future beta releases will appear here first.\n\n### How to Switch Channels\n1. Go to Help → Update Settings\n2. Change Update Channel to Beta\n3. Click Check for Updates\n\nBeta releases may contain experimental features."
+        "en": "## SimpleCLSX v1.0.1 Beta\n\n### Same as Stable v1.0.1\nThis beta release matches the stable release.\n\n### Bug Fixes\n- Fixed build system to use correct Qt MinGW compiler\n- Resolved libwdi.dll path configuration issues\n- Corrected library paths for proper linking\n\n### How to Switch Channels\n1. Go to Help → Update Settings\n2. Change Update Channel to Beta\n3. Click Check for Updates"
       },
       "critical": false,
       "minimumFirmware": "2.0.0"
     }
   },
   "announcements": {
-    "en": "Welcome to SimpleCLSX! Your application will automatically check for updates and keep you current with the latest features and fixes.",
-    "es": "¡Bienvenido a SimpleCLSX! Su aplicación verificará automáticamente las actualizaciones y lo mantendrá actualizado."
+    "en": "🎉 Version 1.0.1 is now available! This update fixes critical build issues and improves stability. Your application will automatically download the update.",
+    "es": "🎉 ¡La versión 1.0.1 ya está disponible! Esta actualización corrige problemas críticos de compilación y mejora la estabilidad."
   },
   "updateNotes": {
     "firstRun": "🎉 SimpleCLSX now includes an automatic update system! Updates will be delivered seamlessly in the background.",
     "maintenance": "Update system is fully operational. Check Help → Check for Updates anytime."
-  }
+  },
+  "versionHistory": [
+    {
+      "version": "1.0.1",
+      "releaseDate": "2025-09-05T16:17:00Z",
+      "type": "patch",
+      "summary": "Build system fixes and stability improvements"
+    },
+    {
+      "version": "1.0.0",
+      "releaseDate": "2025-01-04T00:00:00Z",
+      "type": "major",
+      "summary": "Initial release with full feature set"
+    }
+  ]
 }
