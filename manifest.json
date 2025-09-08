@@ -1,57 +1,65 @@
 {
   "version": "1.0.2",
-  "releaseDate": "2025-01-08T00:00:00Z",
-  "minimumVersion": "1.0.0",
-  "channels": {
-    "stable": {
-      "version": "1.0.2",
-      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.2/SimpleCLSX-1.0.2-win64.zip",
-      "size": 20570965,
-      "sha256": "EBCD249BD094CDB0084F1A46E7560FC167606C8F86520BA8947A8D7F41DA0F6D",
-      "signature": ""{
-  "version": "1.0.2",
   "releaseDate": "2025-09-08T00:00:00Z",
   "minimumVersion": "1.0.0",
   "channels": {
     "stable": {
       "version": "1.0.2",
       "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.2/SimpleCLSX-1.0.2-win64.zip",
-      "size": 20570965,
+      "size": 41710149,
       "sha256": "EBCD249BD094CDB0084F1A46E7560FC167606C8F86520BA8947A8D7F41DA0F6D",
       "signature": "",
       "changelog": {
-        "en": "## SimpleCLSX v1.0.2 - Stability Update\n\n### 🎯 What's New\n- Enhanced firmware update reliability with improved DFU driver installation\n- Optimized USB communication for better device detection\n- Improved error handling and recovery mechanisms\n- Updated logging system with better diagnostics\n\n### 🐛 Bug Fixes\n- Fixed intermittent device connection issues on Windows 11\n- Resolved firmware update failures with certain USB configurations\n- Corrected sequence upload progress reporting\n- Fixed memory leak in long-running sequence playback\n\n### 🔧 Technical Improvements\n- Migrated to pnputil for more reliable driver installation\n- Enhanced DFU mode detection and automatic driver setup\n- Improved thread safety in USB communication layer\n- Better error messages for troubleshooting\n\n### 📝 Notes\n- This update is recommended for all users\n- Firmware version 2.0.0 or higher required\n- Automatic driver installation now more reliable on Windows 10/11"
+        "en": "## SimpleCLSX v1.0.2\n\n### New Features\n- Added OTA (Over-The-Air) update system\n- Automatic update checking on startup\n- Manual update check via Help menu (Ctrl+U)\n- Update progress dialog with detailed status\n- Automatic backup before updates\n- Rollback capability on update failure\n\n### Improvements\n- Enhanced error handling for updates\n- Better network connectivity checks\n- Improved update manifest validation\n- Added SHA256 verification for downloads\n- Optimized update file extraction\n\n### Bug Fixes\n- Fixed potential crash during update download\n- Resolved update dialog display issues\n- Corrected version comparison logic\n\n### Update Instructions\n- SimpleCLSX will automatically check for and install this update\n- Or manually check via Help → Check for Updates (Ctrl+U)"
       },
       "critical": false,
-      "minimumFirmware": "2.0.0"
+      "minimumFirmware": "2.0.0",
+      "previousVersions": [
+        {
+          "version": "1.0.1",
+          "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.1/SimpleCLSX-1.0.1-win64.zip",
+          "releaseDate": "2025-09-05T16:17:00Z",
+          "changelog": {
+            "en": "## SimpleCLSX v1.0.1\n\n### Bug Fixes\n- Fixed build system to use correct Qt MinGW compiler\n- Resolved libwdi.dll path configuration issues\n- Corrected library paths for proper linking\n\n### Improvements\n- Enhanced build process stability\n- Improved deployment scripts\n- Better error handling in release workflow"
+          }
+        },
+        {
+          "version": "1.0.0",
+          "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.0/SimpleCLSX-1.0.0-win64.zip",
+          "releaseDate": "2025-01-04T00:00:00Z",
+          "changelog": {
+            "en": "## SimpleCLSX v1.0.0 - Initial Release\n\n### Features\n- RGB color control with real-time preview\n- Brightness adjustment (0-255 levels)\n- 7 preset colors for quick access\n- Sequence playback (built-in and custom)\n- Custom .raw sequence upload support\n- Firmware update with DFU support\n- Automatic driver installation (Windows)\n- Dark mode interface\n- Professional OTA update system"
+          }
+        }
+      ]
     },
     "beta": {
       "version": "1.0.2",
-      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.2/SimpleCLSX-1.0.2-win64.zip",
-      "size": 20570965,
+      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.2-beta/SimpleCLSX-1.0.2-beta-win64.zip",
+      "size": 41710149,
       "sha256": "EBCD249BD094CDB0084F1A46E7560FC167606C8F86520BA8947A8D7F41DA0F6D",
       "signature": "",
       "changelog": {
-        "en": "## SimpleCLSX v1.0.2 - Stability Update\n\n### Beta Channel\nSame as stable release. Beta users get early access to all updates.\n\n### 🎯 What's New\n- Enhanced firmware update reliability with improved DFU driver installation\n- Optimized USB communication for better device detection\n- Improved error handling and recovery mechanisms\n- Updated logging system with better diagnostics\n\n### 🐛 Bug Fixes\n- Fixed intermittent device connection issues on Windows 11\n- Resolved firmware update failures with certain USB configurations\n- Corrected sequence upload progress reporting\n- Fixed memory leak in long-running sequence playback\n\n### How to Switch Channels\n1. Go to Help → Update Settings\n2. Change Update Channel to Beta\n3. Click Check for Updates"
+        "en": "## SimpleCLSX v1.0.2 Beta\n\n### Same as Stable v1.0.2\nThis beta release matches the stable release.\n\n### New Features\n- Added OTA (Over-The-Air) update system\n- Automatic update checking on startup\n- Manual update check via Help menu (Ctrl+U)\n- Update progress dialog with detailed status\n- Automatic backup before updates\n- Rollback capability on update failure\n\n### How to Switch Channels\n1. Go to Help → Update Settings\n2. Change Update Channel to Beta\n3. Click Check for Updates"
       },
       "critical": false,
       "minimumFirmware": "2.0.0"
     }
   },
   "announcements": {
-    "en": "SimpleCLSX v1.0.2 is now available! This stability update improves device connectivity and firmware update reliability.",
-    "es": "¡SimpleCLSX v1.0.2 ya está disponible! Esta actualización de estabilidad mejora la conectividad del dispositivo y la confiabilidad de la actualización del firmware."
+    "en": "🎉 Version 1.0.2 is now available! This release introduces the new OTA update system for seamless automatic updates. Your application will automatically download the update.",
+    "es": "🎉 ¡La versión 1.0.2 ya está disponible! Esta versión introduce el nuevo sistema de actualización OTA para actualizaciones automáticas sin problemas."
   },
   "updateNotes": {
     "firstRun": "🎉 SimpleCLSX now includes an automatic update system! Updates will be delivered seamlessly in the background.",
-    "maintenance": "Update system is fully operational. Version 1.0.2 brings important stability improvements."
+    "maintenance": "Update system is fully operational. Check Help → Check for Updates anytime."
   },
   "versionHistory": [
     {
       "version": "1.0.2",
       "releaseDate": "2025-09-08T00:00:00Z",
-      "type": "patch",
-      "summary": "Stability update: DFU/USB reliability, diagnostics, and error handling improvements"
+      "type": "minor",
+      "summary": "OTA update system and enhanced user experience"
     },
     {
       "version": "1.0.1",
