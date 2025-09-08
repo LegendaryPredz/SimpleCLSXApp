@@ -1,20 +1,28 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "releaseDate": "2025-09-08T00:00:00Z",
   "minimumVersion": "1.0.0",
   "channels": {
     "stable": {
-      "version": "1.0.2",
-      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.2/SimpleCLSX-1.0.2-win64.zip",
-      "size": 41710149,
-      "sha256": "EBCD249BD094CDB0084F1A46E7560FC167606C8F86520BA8947A8D7F41DA0F6D",
+      "version": "1.0.3",
+      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.3/SimpleCLSX-1.0.3-win64.zip",
+      "size": 20572969,
+      "sha256": "7C8514BD3E2B8FFFE6C4EB309B5063737B8C95D82498BA8A46079091344C8098",
       "signature": "",
       "changelog": {
-        "en": "## SimpleCLSX v1.0.2\n\n### New Features\n- Added OTA (Over-The-Air) update system\n- Automatic update checking on startup\n- Manual update check via Help menu (Ctrl+U)\n- Update progress dialog with detailed status\n- Automatic backup before updates\n- Rollback capability on update failure\n\n### Improvements\n- Enhanced error handling for updates\n- Better network connectivity checks\n- Improved update manifest validation\n- Added SHA256 verification for downloads\n- Optimized update file extraction\n\n### Bug Fixes\n- Fixed potential crash during update download\n- Resolved update dialog display issues\n- Corrected version comparison logic\n\n### Update Instructions\n- SimpleCLSX will automatically check for and install this update\n- Or manually check via Help → Check for Updates (Ctrl+U)"
+        "en": "## SimpleCLSX v1.0.3\n\n### Updater System Improvements\n- **Auto-restart after updates**: Application now automatically restarts after successful updates\n- **Fixed duplicate update prompts**: App properly tracks installed version to prevent repeated update notifications\n- **Dynamic version display**: About dialog now shows current installed version and updates automatically\n- **Version tracking**: Persistent version storage prevents update loops\n- **Enhanced update workflow**: Seamless update experience with proper restart handling\n\n### Bug Fixes\n- Fixed version inconsistency between different parts of the application\n- Resolved compilation errors in About dialog\n- Improved version string parsing and display\n- Fixed update controller version management\n\n### Technical Improvements\n- Unified version source from constants.h\n- Added markUpdateInstalled() method for post-update version tracking\n- Enhanced UpdateController with persistent settings\n- Improved version comparison logic\n\n### Update Instructions\n- This update will automatically restart the application after installation\n- Check Help → About to verify your current version after update"
       },
       "critical": false,
       "minimumFirmware": "2.0.0",
       "previousVersions": [
+        {
+          "version": "1.0.2",
+          "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.2/SimpleCLSX-1.0.2-win64.zip",
+          "releaseDate": "2025-09-08T00:00:00Z",
+          "changelog": {
+            "en": "## SimpleCLSX v1.0.2\n\n### New Features\n- Added OTA (Over-The-Air) update system\n- Automatic update checking on startup\n- Manual update check via Help menu (Ctrl+U)\n- Update progress dialog with detailed status\n- Automatic backup before updates\n- Rollback capability on update failure\n\n### Improvements\n- Enhanced error handling for updates\n- Better network connectivity checks\n- Improved update manifest validation\n- Added SHA256 verification for downloads\n- Optimized update file extraction\n\n### Bug Fixes\n- Fixed potential crash during update download\n- Resolved update dialog display issues\n- Corrected version comparison logic"
+          }
+        },
         {
           "version": "1.0.1",
           "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.1/SimpleCLSX-1.0.1-win64.zip",
@@ -34,27 +42,33 @@
       ]
     },
     "beta": {
-      "version": "1.0.2",
-      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.2-beta/SimpleCLSX-1.0.2-beta-win64.zip",
-      "size": 41710149,
-      "sha256": "EBCD249BD094CDB0084F1A46E7560FC167606C8F86520BA8947A8D7F41DA0F6D",
+      "version": "1.0.3",
+      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.3-beta/SimpleCLSX-1.0.3-beta-win64.zip",
+      "size": 20572969,
+      "sha256": "7C8514BD3E2B8FFFE6C4EB309B5063737B8C95D82498BA8A46079091344C8098",
       "signature": "",
       "changelog": {
-        "en": "## SimpleCLSX v1.0.2 Beta\n\n### Same as Stable v1.0.2\nThis beta release matches the stable release.\n\n### New Features\n- Added OTA (Over-The-Air) update system\n- Automatic update checking on startup\n- Manual update check via Help menu (Ctrl+U)\n- Update progress dialog with detailed status\n- Automatic backup before updates\n- Rollback capability on update failure\n\n### How to Switch Channels\n1. Go to Help → Update Settings\n2. Change Update Channel to Beta\n3. Click Check for Updates"
+        "en": "## SimpleCLSX v1.0.3 Beta\n\n### Same as Stable v1.0.3\nThis beta release matches the stable release.\n\n### Updater System Improvements\n- **Auto-restart after updates**: Application now automatically restarts after successful updates\n- **Fixed duplicate update prompts**: App properly tracks installed version to prevent repeated update notifications\n- **Dynamic version display**: About dialog now shows current installed version and updates automatically\n- **Enhanced update workflow**: Seamless update experience with proper restart handling\n\n### How to Switch Channels\n1. Go to Help → Update Settings\n2. Change Update Channel to Beta\n3. Click Check for Updates"
       },
       "critical": false,
       "minimumFirmware": "2.0.0"
     }
   },
   "announcements": {
-    "en": "🎉 Version 1.0.2 is now available! This release introduces the new OTA update system for seamless automatic updates. Your application will automatically download the update.",
-    "es": "🎉 ¡La versión 1.0.2 ya está disponible! Esta versión introduce el nuevo sistema de actualización OTA para actualizaciones automáticas sin problemas."
+    "en": "🎉 Version 1.0.3 is now available! This release fixes updater system issues - no more duplicate update prompts and automatic restart after updates. Your application will automatically download and restart.",
+    "es": "🎉 ¡La versión 1.0.3 ya está disponible! Esta versión corrige problemas del sistema de actualizaciones - no más avisos de actualización duplicados y reinicio automático después de las actualizaciones."
   },
   "updateNotes": {
     "firstRun": "🎉 SimpleCLSX now includes an automatic update system! Updates will be delivered seamlessly in the background.",
     "maintenance": "Update system is fully operational. Check Help → Check for Updates anytime."
   },
   "versionHistory": [
+    {
+      "version": "1.0.3",
+      "releaseDate": "2025-09-08T00:00:00Z",
+      "type": "patch",
+      "summary": "Updater system improvements - auto-restart and duplicate prompt fixes"
+    },
     {
       "version": "1.0.2",
       "releaseDate": "2025-09-08T00:00:00Z",
