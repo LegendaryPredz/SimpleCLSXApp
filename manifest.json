@@ -1,16 +1,16 @@
 {
-  "version": "1.0.5",
-  "releaseDate": "2025-09-08T21:00:19Z",
+  "version": "1.0.6",
+  "releaseDate": "2025-09-08T21:11:03Z",
   "minimumVersion": "1.0.0",
   "channels": {
     "stable": {
-      "version": "1.0.5",
-      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.5/SimpleCLSX-1.0.5-win64.zip",
-      "size": 20574204,
-      "sha256": "B5A0632EC90ECF9401A4DCAAA3388A28B63E90C3CD88F76F9B2A139A30BAB229",
+      "version": "1.0.6",
+      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.6/SimpleCLSX-1.0.6-win64.zip",
+      "size": 20574205,
+      "sha256": "4D34294985A0871F7ECA192453ECAE81FAF9BDC6E421F1CE993A3FFC72BD8C33",
       "signature": "",
       "changelog": {
-        "en": "## SimpleCLSX v1.0.3\n\n### Updater System Improvements\n- **Auto-restart after updates**: Application now automatically restarts after successful updates\n- **Fixed duplicate update prompts**: App properly tracks installed version to prevent repeated update notifications\n- **Dynamic version display**: About dialog now shows current installed version and updates automatically\n- **Version tracking**: Persistent version storage prevents update loops\n- **Enhanced update workflow**: Seamless update experience with proper restart handling\n\n### Bug Fixes\n- Fixed version inconsistency between different parts of the application\n- Resolved compilation errors in About dialog\n- Improved version string parsing and display\n- Fixed update controller version management\n\n### Technical Improvements\n- Unified version source from constants.h\n- Added markUpdateInstalled() method for post-update version tracking\n- Enhanced UpdateController with persistent settings\n- Improved version comparison logic\n\n### Update Instructions\n- This update will automatically restart the application after installation\n- Check Help → About to verify your current version after update"
+        "en": "## SimpleCLSX v1.0.6\n\n### Bug Fix\n - Fixed an issue where firmware version wasn't correct format causing app to think it was higher than an update."
       },
       "critical": false,
       "minimumFirmware": "2.0.0",
