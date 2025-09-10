@@ -1,16 +1,16 @@
 {
-  "version": "1.0.7",
-  "releaseDate": "2025-09-10T17:19:26Z",
+  "version": "1.0.8",
+  "releaseDate": "2025-09-10T17:51:13Z",
   "minimumVersion": "1.0.0",
   "channels": {
     "stable": {
-      "version": "1.0.7",
-      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.7/SimpleCLSX-1.0.7-win64.zip",
-      "size": 20574701,
-      "sha256": "1D513AC539BECD187D455A31F27D62D836CDE8AA8ED78D412B009DAB0B5CB211",
+      "version": "1.0.8",
+      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.8/SimpleCLSX-1.0.8-win64.zip",
+      "size": 20577123,
+      "sha256": "5BAF99A4B3A9535C92E330AE19B710A02B1C5C4D6880F2A2C4FDB87C777035FD",
       "signature": "",
       "changelog": {
-        "en": "## SimpleCLSX v1.0.7\n\n### New Features\n - Added an 'Erase All Sequences' button."
+        "en": "## SimpleCLSX v1.0.8\n\n### New Features\n - Fixed an issue where updates were trying to be downloaded from the wrong URL. \n Updated an issue in the logs that showed libwdi not initializing (this is correct behavior)."
       },
       "critical": false,
       "minimumFirmware": "2.0.0",
