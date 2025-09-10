@@ -1,16 +1,16 @@
 {
-  "version": "1.0.6",
-  "releaseDate": "2025-09-08T21:11:03Z",
+  "version": "1.0.7",
+  "releaseDate": "2025-09-10T17:19:26Z",
   "minimumVersion": "1.0.0",
   "channels": {
     "stable": {
-      "version": "1.0.6",
-      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.6/SimpleCLSX-1.0.6-win64.zip",
-      "size": 20574205,
-      "sha256": "4D34294985A0871F7ECA192453ECAE81FAF9BDC6E421F1CE993A3FFC72BD8C33",
+      "version": "1.0.7",
+      "url": "https://github.com/LegendaryPredz/SimpleCLSXApp/releases/download/v1.0.7/SimpleCLSX-1.0.7-win64.zip",
+      "size": 20574701,
+      "sha256": "1D513AC539BECD187D455A31F27D62D836CDE8AA8ED78D412B009DAB0B5CB211",
       "signature": "",
       "changelog": {
-        "en": "## SimpleCLSX v1.0.6\n\n### Bug Fix\n - Fixed an issue where firmware version wasn't correct format causing app to think it was higher than an update."
+        "en": "## SimpleCLSX v1.0.7\n\n### New Features\n - Added an 'Erase All Sequences' button."
       },
       "critical": false,
       "minimumFirmware": "2.0.0",
